@@ -1,11 +1,12 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App";
-import Register from "../pages/Register";
 import Login from "../pages/login";
 import Dashboard from "../pages/Dashboard";
 import MySkills from "../pages/MySkills";
 import SkillForm from "../components/SkillFrom";
+import Register from "../pages/Register";
+
 export default function Routes() {
   const router = createBrowserRouter([
     {
