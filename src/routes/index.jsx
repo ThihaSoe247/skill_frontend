@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App";
-import Login from "../pages/login";
+import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import MySkills from "../pages/MySkills";
 import SkillForm from "../components/SkillFrom";
