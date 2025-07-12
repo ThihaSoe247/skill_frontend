@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App";
-import Register from "../pages/register";
+import Register from "../pages/Register";
 import Login from "../pages/login";
 import Dashboard from "../pages/Dashboard";
 import MySkills from "../pages/MySkills";
@@ -13,8 +13,8 @@ export default function Routes() {
       element: <App />,
       children: [
         // { path: "", element: <Home /> },
-        { path: "/skills", element: <SkillForm /> },
-        { path: "/skills/edit/:id", element: <SkillForm /> },
+        { path: "skills", element: <SkillForm /> },
+        { path: "skills/edit/:id", element: <SkillForm /> },
         { path: "my-skills", element: <MySkills /> },
         { path: "users/register", element: <Register /> },
         { path: "users/login", element: <Login /> },
